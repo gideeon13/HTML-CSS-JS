@@ -1,0 +1,39 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .btn-togglemenu {
+        display: block;
+    }
+    .container {
+        position: initial;
+    }
+    .megamenu>li {
+        display: block;
+        height: auto;
+    }
+    .megamenu {
+        display: none;
+        float: initial;
+        position: absolute;
+        background-color: #000;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+    .item>a {
+        color: #fff;
+    }
+    .item>a:hover {
+        background-color: initial;
+    }
+    .block {
+        position: initial;
+    }
+    .block .sub-menu {
+        float: initial;
+        width: 100%;
+    }
+    .block .sub-menu-content {
+        display: none;
+    }
+}
